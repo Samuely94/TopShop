@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "579745451553",
+    "firebase_url": "https://topshop-74db2.firebaseio.com",
+    "project_id": "topshop-74db2",
+    "storage_bucket": "topshop-74db2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579745451553:android:b657c09546f0c295",
+        "android_client_info": {
+          "package_name": "com.project.cs371.couponapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579745451553-q5c6stsmgh2lpk38b88046g3t90qijvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZFLgNfi_S0jqmuwd0uAuibT-6kRg_ivc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

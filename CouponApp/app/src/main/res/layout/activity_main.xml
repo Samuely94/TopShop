@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.cs371.couponapp.MainActivity">
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp" />
+
+    <Button
+        android:text="Create List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/createListButton" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:gravity="center_horizontal"
+        android:hint="New List"
+        android:ems="10"
+        android:layout_above="@+id/createListButton"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/newListEditText" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="wrap_content"
+        android:background="@android:color/white"
+        android:layout_alignParentStart="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_above="@+id/newListEditText">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/sliding_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentStart="true"
+        facebook:tabMode="scrollable" />
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:text="Add Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newListEditText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="38dp"
+        android:id="@+id/addItemButton" />
+
+    <Button
+        android:text="Delete Tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newListEditText"
+        android:layout_toEndOf="@+id/newListEditText"
+        android:layout_marginStart="50dp"
+        android:id="@+id/deleteTabButton" />
+
+</RelativeLayout>

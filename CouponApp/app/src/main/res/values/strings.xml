@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CouponApp</string>
+    <string name="facebook_app_id">990698657705633</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="fb_login_protocol_scheme">fb990698657705633</string>
+</resources>
